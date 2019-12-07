@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(33,33,33);
+}
+
+.slider {
+    margin-top: 100px;
+
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-inner {
+        width: 100%;
+        .view {
+            width: 50%;
+            overflow: auto;
+            
+        }
+    }
+    .carousel-indicators {
+        justify-content: flex-end;
+    }
+    .carousel-caption {
+        font-size: 1vw;
+        right: 0;
+        left: 60%;
+        width: 30%;
+        text-align: right;
+    }
+    
+}
+
+
